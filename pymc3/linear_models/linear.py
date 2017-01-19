@@ -2,7 +2,7 @@ import theano.tensor as tt
 import pandas as pd
 import numpy as np
 from ..distributions import Normal, Flat
-from ..glm import families
+from .glm import families
 from ..model import Model, Deterministic
 from .utils import any_to_tensor_and_labels
 
